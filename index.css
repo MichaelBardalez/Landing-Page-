@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+H1 {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+#jbButton { 
+  padding: 15px 25px;
+  background-color: blue;
+  
+}
+
+#homeButton {
+  padding: 15px 25px;
+  background-color: grey;
+}
