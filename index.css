@@ -1,0 +1,97 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* root is for entire website */
+:root {
+  /* Custom Properties, assigning values the variablbes on the left handside */
+
+  --ff-primary: 'Source Sans Pro', sans-serif  ; /* assigning primary font family */
+  --ff-secondary: 'Source Code Pro', monospace  ; /* assigning secondary font family */
+  --fw-reg: 100; /* assigning regular font weight */
+  --fw-bold: 900; /* assigning bold for font weight */
+
+  --clr-light: #fff; /* assigning color properties */
+  --clr-dark: #303030;
+  --clr-accent: #b3eff7; 
+
+  --fs-h1: 3rem; /* assigning font size properties */
+  --fs-h2: 3.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+}
+
+/* @media changes the values of the properties when the screen size changes */
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
+}
+
+/* General styles */
+
+body {
+  background: var(--clr-lightt); /*calling a color value from the variable --clr-light */
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Font styles */
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+
+/* Styling the Section Titles and Subtitles */
+
+.section__title {
+  margin-bottom: .25em;
+}
+
+.section__title--intro {
+  font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+  font-weight: var(--fw-bold);
+  display: block;
+}
+
+.section__subtitle{
+  margin: 0;
+  font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  background-color: var(--clr-accent);
+  font-family: var(--ff-secondary);
+}
+
