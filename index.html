@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>MichaelJB Developer | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo in the header section -->
+      <div class="logo">
+        <img src="" alt="Logo picture" />
+      </div>
+      <!-- Creating the hamburger navigation button -->
+      <button class="nav-toggle" aria-label="toggle nav">
+        <span class="hamburg"> </span>
+      </button>
+      <!-- Creating the navigation options or menu options -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <!-- nav__list, indicates that this isa subcomponent of the -->
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#works" class="nav__link">My Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction part of the website-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Michael Bardalez</strong>
+      </h1>
+      <!-- section__title is a subcomponent of section. and section__title--intro is a modifier for it-->
+      <p class="section__subtitle section__subtitle--intro">Developer</p>
+      <img src="./Img/intro_img.JPG" alt="picture of me" class="intro__img" />
+    </section>
+
+    <!-- My services part of the website -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <!-- Creating 3 columns for the different services -->
+        <div class="service">
+          <h3>Data Analytics</h3>
+          <p>
+            I am proficient in the various technologies used in Data Analytics
+            such as Spreadsheets, SQL, Python, R, and Tableau. In addition to
+            those I also am very familiar with the differnet Data Structures
+            such as Linked lists, Arrays, Graphs and Trees.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Cyber Security</h3>
+          <p>
+            I am also great at Cyber Security, more leaning towards the data
+            protection and mitigation side than the penetration and exploits
+            side. I have dwelved in the exploits aspect of Cyber Security but
+            find Security more exciting. I mainly use Kali Linux for my
+            practices within a virtual space.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            I am knowledgeable in HTML, CSS, JavaScript, and looking forward to
+            learning some frameworks such as React or Angular or both. I also
+            enjoy doing some backend work such as PHP, and looking forward to
+            Django.
+          </p>
+        </div>
+      </div>
+      <a href="#works" class="btn"> My Projects</a>
+    </section>
+
+    <!-- About me part of the website -->
+    <section class="aboutme" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer and Developer
+      </p>
+
+      <div class="aboutme__body">
+        <p>
+          I am a Computer Science Student with an Associate's Degree in Computer
+          Science and a Certificate holder for Data Analytics from Google. I am
+          Currently Pursuing a Bachelor's Degree in CS while working on other
+          certifications.
+        </p>
+        <p>
+          I enjoy learning many aspects of Computer Science such as Web
+          Development, Big Data and Cyber Security. I spend most of my time
+          learning these technologies by myself and doing projects to showcase
+          what I've learnt. Because of these fields I've become proficient in
+          programming languages such as: HTML5, CSS3, JavaScript, PHP, SQL and
+          Python.
+        </p>
+      </div>
+      <img
+        src="./Img/aboutme.JPG"
+        alt="another picture of me"
+        class="aboutmeImg"
+      />
+    </section>
+
+    <!-- My Projects part of the website -->
+    <section class="mywork" id="works">
+      <h2 class="section__title section__title--work">My projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my most recent projects:
+      </p>
+
+      <div class="portfolio">
+        <!-- First Portfolio link -->
+        <a href="black_jack_game.html" class="portfolio__item">
+          <img
+            src="./Img/black_jack_snip.JPG"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+
+        <!-- Second Portfolio link -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="./Img/counter_snip.JPG"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+
+        <!-- Third Portfolio link -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="./Img/confirmation_snip.JPG"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+
+        <!-- Fourth Portfolio link -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="./Img/calc_snip.JPG"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+
+        <!-- Fifth Portfolio link -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="./Img/dbz_snip.jpg"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+
+        <!-- Sixth Portfolio link -->
+        <a href="#" class="portfolio__item">
+          <img
+            src="./Img/py_calc_snip.JPG"
+            alt="image of portfolio"
+            class="portfolio__image"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Section of the website -->
+    <footer class="footer">
+      <a href="mailto:mjbardalez3396@gmail.com" class="footer-link"
+        >mjbardalez3396@gmail.com</a
+      >
+      <ul class="social-list">
+        <!-- First Social item -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/MichaelBardalez"
+            ><i class="fab fa-github"></i>
+          </a>
+        </li>
+        <!-- Second Social item -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/michael-jason-bardalez-704392223/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- Third Social item -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.kaggle.com/"
+            ><i class="fab fa-kaggle"></i>
+          </a>
+        </li>
+
+        <!-- Fourth Social item
+        <li class="social-list__item">
+          <a class="social-list__link"></a>
+        </li>
+             Fifth social item
+        <li class="social-list__item"><a class="social-list__link"></a></li>
+        -->
+      </ul>
+    </footer>
+  </body>
+</html>
