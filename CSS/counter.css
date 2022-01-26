@@ -1,0 +1,103 @@
+#container {
+  background-image: url("bgimage.jpg");
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: relative;
+}
+
+#welcome-el {
+  font-family: Alfa Slab One;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(78, 22, 22);
+  font-style: bold;
+}
+
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#increment-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: transform 100ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+#increment-btn:hover {
+  background-color: white;
+  transform: scale(1.2);
+  opacity: 0.75;
+  color: black;
+}
+
+#button-container {
+  text-align: center;
+}
+
+#save-button-container {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#save-btn {
+  background-color: rgb(73, 183, 219);
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: transform 100ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+#save-btn:hover {
+  background-color: white;
+  transform: scale(1.2);
+  opacity: 0.75;
+  color: black;
+}
+
+#heading {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 20px;
+
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#count-el {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+#save-el {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
