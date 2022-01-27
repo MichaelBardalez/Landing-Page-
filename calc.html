@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/calc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="split left">
+        <div class="center">
+          <button onclick="add()">Add</button>
+          <button onclick="subtract()">Subtract</button>
+          <button onclick="multiply()">Multiply</button>
+          <button onclick="divide()">Divide</button>
+        </div>
+      </div>
+      <div class="split right">
+        <div class="center">
+          <p id="display-msg"></p>
+          <p id="num1-el"></p>
+          <p id="num2-el"></p>
+          <br />
+          <p id="sum-el">Answer:</p>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
