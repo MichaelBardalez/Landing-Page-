@@ -293,7 +293,7 @@ nav {
 }
 
 .portfolio__item {
-  background-color: var(--clr-accent);
+  background-color: var(--clr-dark);
   overflow: hidden;
 }
 
