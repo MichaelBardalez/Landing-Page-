@@ -15,7 +15,9 @@
     <button id="homeButton"><a href="index.html">Home</a></button>
     <div id="container">
       <p id="welcome-el"></p>
-      <h1 id="heading">Number of clicks:</h1>
+      <div class="box">
+        <h1 id="heading">Number of clicks:</h1>
+      </div>
       <h2 id="count-el">0</h2>
       <div id="button-container">
         <button id="increment-btn" onclick="increment()">Increment</button>
@@ -23,7 +25,7 @@
       <div id="save-button-container">
         <button id="save-btn" onclick="save()">Save</button>
       </div>
-      <div>
+      <div class="box">
         <p id="save-el">Preview clicks:</p>
       </div>
       <script src="counter.js"></script>
