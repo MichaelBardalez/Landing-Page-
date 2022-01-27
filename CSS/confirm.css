@@ -1,0 +1,49 @@
+.container {
+  /* use this code to make the other apps mobile friendly */
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: relative;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: red;
+  border: groove;
+  border-color: black;
+}
+
+#shoe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border: groove;
+}
+
+button {
+  background-color: #db3f2b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#error {
+  text-align: center;
+}
