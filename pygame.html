@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="homeButton"><a href="index.html">Home</a></button>
+      <br />
+      <div style="text-align: center">
+        <video id="myVid" width="800" height="600" controls>
+          <source src="./vid/pygame.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <script>
+        var vid = document.getElementById("myVid");
+
+        function getVolume() {
+          alert(vid.volume);
+        }
+
+        function setHalfVolume() {
+          vid.volume = 0.2;
+        }
+
+        function setFullVolume() {
+          vid.volume = 1.0;
+        }
+      </script>
+    </div>
+  </body>
+</html>
