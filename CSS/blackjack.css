@@ -6,16 +6,15 @@ body {
 }
 
 #wrap {
-  width: 50%;
+  background-image: url("bgimage.jpg");
+  background-position: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  background-image: cover;
-  overflow: hidden;
-  padding: 15px;
+  background-size: cover;
+  z-index: 0;
+  display: relative;
   border: groove;
   background-image: url("bg.jpg");
-  background-size: cover;
 }
 
 h1 {
@@ -47,12 +46,14 @@ p {
   cursor: pointer;
   font-family: sans-serif;
   font-size: 15px;
+  transition: transform 100ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 
 .startButton:hover {
-  background: salmon;
-  color: white;
-  font-weight: bolder;
+  background-color: white;
+  transform: scale(1.2);
+  opacity: 0.75;
+  color: black;
 }
 
 @media (min-width: 768px) {
