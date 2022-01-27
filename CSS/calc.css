@@ -81,3 +81,10 @@ button {
   font-weight: bold;
   color: white;
 }
+
+#homeButton {
+  background-color: red;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
