@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+#counter-box {
+  box-sizing: border-box;
+  position: center;
+}
+
+#counter-box {
+  background-color: #192a56;
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  margin: 0;
+}
+
+#counter_views {
+  font-size: 25px;
+  margin: 0;
+}
+
+#counter_p {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+  margin: 0;
+}
