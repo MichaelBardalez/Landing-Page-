@@ -10,13 +10,13 @@ body {
 }
 
 .main {
+  overflow-x: hidden;
   position: absolute;
   justify-content: center;
   align-items: center;
-  margin: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 10px;
   padding-bottom: 10px;
+  max-width: 100%;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, 300px));
